@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hodowla Pitbull</title>
+	<link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url("zdj/logo/tlo.jpg");
+			background-size: cover; 
+			background-repeat: no-repeat; 
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Wysrodkowanie tekstu */
+        }
+        
+        header, section, footer {
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center; /* Wysrodkowanie tekstu */
+        }
+        
+        h1, h2, p {
+            margin: 0 auto; /* Automatyczne centrowanie */
+            text-align: center; /* Wysrodkowanie tekstu */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+	
+    </style>
+    <script>
+        function swapImages(newImage) {
+            var mainImage = document.getElementById('main-dog');
+            var tempSrc = mainImage.src;
+            mainImage.src = newImage.src;
+            newImage.src = tempSrc;
+        }
+		
+    </script>
+</head>
+<body>
+  <header>
+
+    <div id="logo">	
+        <h1>Hodowla American Pitbull Terrier</h1>	
+    </div>
+    
+	
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">O nas</a></li>
+		    <li><a href="Suki.html">Suki</a></li>
+		    <li><a href="psy_z_hodowli.html">Psy z hodowli</a></li>
+			<li><a href="psy.html">Psy</a></li>			
+            <li><a href="galeria.html">Galeria</a></li>			
+            <li><a href="plany.html">Planowane mioty</a></li>			
+			<li><a href="kontakt.html">Kontakt</a> </li>
+        </ul>
+    </div>
+	
+</header>
+    <section id="nasze-psy">
+        <p style="font-weight: bold; font-size: calc(100% + 3px); margin-top: 10px; margin-bottom: 10px;">Tigra of paubas</p>
+
+        <div class="dog">
+            <img src="zdj/Tigra/5.jpg" alt="Pies 1" class="big-dog" id="main-dog">
+        </div>
+        <div class="dog">
+            <img src="zdj/Tigra/6.jpg" alt="Pies 2" class="small-dog" onclick="swapImages(this)">
+            <img src="zdj/Tigra/7.jpg" alt="Pies 3" class="small-dog" onclick="swapImages(this)"> 
+            <img src="zdj/Tigra/8.jpg" alt="Pies 4" class="small-dog" onclick="swapImages(this)"></br>
+			<img src="zdj/Tigra/9.jpg" alt="Pies 5" class="small-dog" onclick="swapImages(this)">
+            <img src="zdj/Tigra/10.jpg" alt="Pies 6" class="small-dog" onclick="swapImages(this)">
+			</div>
+			<a href="https://pedigree-database.cz/dog.php?id=500334" class="facebook-button">Rodowod</a>
+    </section>
+
+
+	<footer id="kontakt">
+    <div id="footer">
+        W razie pytań - dzwoń 883 659 336 </br>
+		Wszystkie prawa zastrzeżone &copy;
+    </div>
+	</footer>
+</body>
+</html>

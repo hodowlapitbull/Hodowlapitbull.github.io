@@ -1,0 +1,148 @@
+/* styles.css */
+
+body {
+    background-color: #808080;
+    color: #ffffff;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	
+	        .facebook-button {
+            display: inline-block;
+            background-color: #4267B2;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .facebook-button:hover {
+            background-color: #3b5998;
+        }
+}
+
+
+.dog {
+    margin: 0 auto 20px auto; /* Automatyczne centrowanie z marginesem dolnym */
+}
+
+.big-dog {
+    width: 450px; /* Szerokość dużej fotografii (zmniejszonej 6x) */
+    display: block; /* Blokowy element */
+    margin: 0 auto; /* Automatyczne centrowanie */
+}
+
+.small-dog {
+    width: 100px; /* Szerokość małych fotografii (zmniejszonej 10x) */
+	
+    display: inline-block; /* Blokowy element inline */
+    margin: 0 10px; /* Marginesy na bokach */
+    cursor: pointer; /* Zmiana kursora na wskaźnik */
+}
+
+.custom-button {
+    background-color: #4CAF50; /* Kolor tła */
+    border: none; /* Brak obramowania */
+    color: white; /* Kolor tekstu */
+    padding: 15px 32px; /* Wielkość przycisku */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    text-decoration: none; /* Brak podkreślenia */
+    display: inline-block; /* Wyświetlanie jako blok inline */
+    font-size: 16px; /* Rozmiar tekstu */
+    margin: 4px 2px; /* Margines */
+    cursor: pointer; /* Zmiana kursora */
+    border-radius: 10px; /* Zaokrąglenie rogów */
+}
+
+.facebook-button:hover {
+    background-color: #3b5998;
+}
+
+.facebook-button {
+    display: inline-block;
+    background-color: #4267B2;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;		
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: #89CFF0; /* Zmiana koloru tekstu na niebieski */
+    text-decoration: none; /* Usunięcie podkreślenia */
+}
+
+.container {
+    position: relative; /* Ustawienie kontenera jako względnie pozycjonowanego */
+}
+
+.background-image {
+    position: absolute; /* Ustawienie zdjęcia jako absolutnie pozycjonowanego */
+    top: 0; /* Przesunięcie zdjęcia do góry */
+    left: 0; /* Przesunięcie zdjęcia do lewej */
+    z-index: -1; /* Ustawienie głębokości warstwy, aby zdjęcie było za tekstem */
+}
+
+#logo {
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgba(102, 102, 102, 0.35);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#nav {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.35);
+    min-height: 10px;
+    padding: 10px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+	#footer{
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
