@@ -1,5 +1,3 @@
-/* styles.css */
-
 body {
     background-color: #808080;
     color: #ffffff;
@@ -24,35 +22,43 @@ body {
 
 
 .dog {
-    margin: 0 auto 20px auto; /* Automatyczne centrowanie z marginesem dolnym */
+    margin: 0 auto 20px auto;
 }
 
 .big-dog {
-    width: 450px; /* Szerokość dużej fotografii (zmniejszonej 6x) */
-    display: block; /* Blokowy element */
-    margin: 0 auto; /* Automatyczne centrowanie */
+    width: 450px;
+    display: block;
+    margin: 0 auto;
 }
 
 .small-dog {
-    width: 100px; /* Szerokość małych fotografii (zmniejszonej 10x) */
+    width: 100px;
 	
-    display: inline-block; /* Blokowy element inline */
-    margin: 0 10px; /* Marginesy na bokach */
-    cursor: pointer; /* Zmiana kursora na wskaźnik */
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.hodowla {
+    width: 145px;
+	
+    display: inline-block; 
+    margin: 0 10px; 
+    cursor: pointer; 
 }
 
 .custom-button {
-    background-color: #4CAF50; /* Kolor tła */
-    border: none; /* Brak obramowania */
-    color: white; /* Kolor tekstu */
-    padding: 15px 32px; /* Wielkość przycisku */
-    text-align: center; /* Wyśrodkowanie tekstu */
-    text-decoration: none; /* Brak podkreślenia */
-    display: inline-block; /* Wyświetlanie jako blok inline */
-    font-size: 16px; /* Rozmiar tekstu */
-    margin: 4px 2px; /* Margines */
-    cursor: pointer; /* Zmiana kursora */
-    border-radius: 10px; /* Zaokrąglenie rogów */
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px; 
 }
 
 .facebook-button:hover {
@@ -74,19 +80,19 @@ body {
 }
 
 a:hover {
-    color: #89CFF0; /* Zmiana koloru tekstu na niebieski */
-    text-decoration: none; /* Usunięcie podkreślenia */
+    color: #89CFF0;
+    text-decoration: none; 
 }
 
 .container {
-    position: relative; /* Ustawienie kontenera jako względnie pozycjonowanego */
+    position: relative; 
 }
 
 .background-image {
-    position: absolute; /* Ustawienie zdjęcia jako absolutnie pozycjonowanego */
-    top: 0; /* Przesunięcie zdjęcia do góry */
-    left: 0; /* Przesunięcie zdjęcia do lewej */
-    z-index: -1; /* Ustawienie głębokości warstwy, aby zdjęcie było za tekstem */
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    z-index: -1; 
 }
 
 #logo {
